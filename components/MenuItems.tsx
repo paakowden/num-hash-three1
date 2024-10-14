@@ -11,6 +11,9 @@ const MenuItems = () => {
   return (
     <>
       <div>
+        <ModeToggle />
+      </div>
+      <div>
         <Image
           src="/menu.png"
           width={28}
@@ -33,9 +36,6 @@ const MenuItems = () => {
             <Link href="/">Cart(1)</Link>
           </div>
         )}
-      </div>
-      <div>
-        <ModeToggle />
       </div>
     </>
   );
