@@ -23,7 +23,7 @@ const NavbarIcons = () => {
   };
 
   return (
-    <div className="flex items-center gap-4 xl:gap-6 relative">
+    <div className="flex items-center gap-4 xl:gap-6 relative dark:bg-white">
       <Image
         src="/profile.png"
         width={22}
