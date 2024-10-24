@@ -9,20 +9,19 @@ const Footer = () => {
         {/* LEFT */}
         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
           <Link href="/">
-            <div className="text-2xl tracking-wide">#3 Whiskey</div>
+            <div className="text-2xl tracking-wide">
+              <span className="text-paa">#3</span> Whiskey
+            </div>
           </Link>
-          <p>
-            3252 Winding Way, Central Plaza, Willowbrook, CA 90210, United
-            States
-          </p>
+          <p>House No 10, Dansoman</p>
           <span className="font-semibold">E-mail: info@3whiskey.com</span>
           <span className="font-semibold">Line 1: +233594346534</span>
-          <span className="font-semibold">Line 2: +233594346534</span>
-          <div className="flex gap-6">
+          <span className="font-semibold">Line 2: +233245365939</span>
+          <div className="flex gap-6 dark:grayscale">
             <Image src="/facebook.png" alt="" width={16} height={16} />
-            <Image src="/instagram.png" alt="" width={16} height={16} />
-            <Image src="/youtube.png" alt="" width={16} height={16} />
-            <Image src="/pinterest.png" alt="" width={16} height={16} />
+            <Image src="/instagram1.png" alt="" width={16} height={16} />
+            <Image src="/youtube1.png" alt="" width={16} height={16} />
+            <Image src="/tiktok.png" alt="" width={16} height={16} />
             <Image src="/x.png" alt="" width={16} height={16} />
           </div>
         </div>
@@ -92,7 +91,9 @@ const Footer = () => {
       </div>
       {/* BOTTOM */}
       <div className="flex flex-col md:flex-row items-center justify-between gap-8 mt-16">
-        <div className="">© 2024 #3 Whiskey Shop</div>
+        <div className="">
+          © 2024 <span className="text-paa">#3</span> Whiskey Shop
+        </div>
         <div className="flex flex-col gap-8 md:flex-row">
           <div className="">
             <span className="text-gray-500 mr-4">Language</span>
